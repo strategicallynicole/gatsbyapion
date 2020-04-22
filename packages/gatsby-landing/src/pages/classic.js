@@ -1,3 +1,5 @@
+import CMS from 'netlify-cms'
+CMS.registerPreviewTemplate('apion', apion);
 import React from "react"
 import { ThemeProvider } from "styled-components"
 
