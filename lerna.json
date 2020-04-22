@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "packages/common", 
+    "packages/next-landing",
+    "packages/gatsby-landing" 
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "appion-next-landing",
+  "builds": [
+	  { "src": "packages/next-landing/next.config.js",
+		"use": "@now/next" 
+	  }
+	]
+}
