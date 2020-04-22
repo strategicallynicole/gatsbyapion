@@ -1,14 +1,14 @@
 {
-	"name": "appion-react-next-gatsby-app-landing",
-	"description": "Modern Landing Pages Template Using React, Next, Styled Components and so on. It also support Gatsby Static site generator ",
-	"version": "1.0.0",
-	"private": true,
-	"author": "Devscorn",
+  "name": "appion-react-next-gatsby-app-landing",
+  "description": "Modern Landing Pages Template Using React, Next, Styled Components and so on. It also support Gatsby Static site generator ",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Devscorn",
   "license": "",
   "repository": {
-		"type": "git",
-		"url": ""
-	},
+    "type": "git",
+    "url": ""
+  },
   "workspaces": [
     "packages/common",
     "packages/next-landing",
@@ -45,5 +45,5 @@
     "pregatsby-firebase-deploy": "rimraf dist && yarn run gatsby-build && cpx \"packages/gatsby-landing/public/**/*.*\" \"dist/public\" -C",
     "gatsby-firebase-deploy": "cross-env NODE_ENV=production firebase deploy",
     "next-netlify-deploy": "yarn workspace next-landing run netlify-build"
-  } 
+  }
 }
